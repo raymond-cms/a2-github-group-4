@@ -1,0 +1,7 @@
+[15-Jul-2019 05:09:22 UTC] PHP Fatal error:  Uncaught Error: Class 'Automattic\Jetpack\Connection\Client' not found in /home/raunakd5/public_html/StreamLine/wp-content/plugins/jetpack/class.jetpack-ixr-client.php:38
+Stack trace:
+#0 /home/raunakd5/public_html/StreamLine/wp-content/plugins/jetpack/sync/class.jetpack-sync-actions.php(191): Jetpack_IXR_Client->query('jetpack.syncAct...', Array)
+#1 /home/raunakd5/public_html/StreamLine/wp-includes/class-wp-hook.php(286): Jetpack_Sync_Actions::send_data(Array, 'deflate-json-ar...', 1563167362.8103, 'sync', 0.0010440349578857, 0.0035998821258545)
+#2 /home/raunakd5/public_html/StreamLine/wp-includes/plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#3 /home/raunakd5/public_html/StreamLine/wp-content/plugins/jetpack/sync/class.jetpack-sync-sender.php(244): apply_filters('jetpack_sync_se...', Array, 'deflate-json-ar...', 1563167362.8103, 'sync', 0.0010440349578857, 0.0035998821258545)
+#4 /home/raunakd5/public_html/StreamLine/wp-content/plugins/jetpack/sync/class.jetpack-sync-sender.php(124): Jetpack_Sync_Send in /home/raunakd5/public_html/StreamLine/wp-content/plugins/jetpack/class.jetpack-ixr-client.php on line 38
